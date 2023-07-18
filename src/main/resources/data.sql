@@ -11,35 +11,27 @@ INSERT INTO school (name) VALUES ('6');
 INSERT INTO school (name) VALUES ('9');
 INSERT INTO school (name) VALUES ('11');
 
-INSERT INTO data_bof (date) values ('1981-12-12')
-INSERT INTO data_bof (date) values ('1982-09-21')
+INSERT INTO data_bof (date) values ('1981-12-12');
+INSERT INTO data_bof (date) values ('1982-09-21');
 
-INSERT INTO faculry (name) VALUES ('–§–∏–∑–∏—á–µ—Å–∫–∏–π');
-INSERT INTO faculry (name) VALUES ('—Ö–º–∏—á–µ—Å–∫–∏–π');
-INSERT INTO faculry (name) VALUES ('–º–∞—Ç–µ–º–∞—Ç–∏—á–µ—Å–∫–∏–π');
-INSERT INTO faculry (name) VALUES ('–±–∏–æ–ª–æ–≥–∏—á–µ—Å–∫–∏–π');
+INSERT INTO faculry (name) VALUES ('physics');
+INSERT INTO faculry (name) VALUES ('chemistry');
+INSERT INTO faculry (name) VALUES ('math');
+INSERT INTO faculry (name) VALUES ('bio');
 
 INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
-<<<<<<< HEAD
-(1,1,1,1,'–æ–ª–µ–≥ –ø–µ—Ç—Ä–æ–≤–∏—á');
+
+(1,1,1,1,'ÓÎÂ„ ÔÂÚÓ‚Ë˜');
 INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
-    (1,1,1,1,'–æ–ª—å–≥–∞ –µ–≤–≥–µ–Ω–µ–≤–Ω–∞');
+    (1,1,1,1,'ÓÎ¸„‡ Â‚„ÂÌÂ‚Ì‡');
 INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
-    (1,1,1,1,'—Å–µ—Ä–≥–µ–π –≤–∏–∫—Ç–æ—Ä–æ–≤–∏—á');
+    (1,1,1,1,'ÒÂ„ÂÈ ‚ËÍÚÓÓ‚Ë˜');
 INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
-    (1,1,1,1,'–∏–≤–∞–Ω —Å–∏–¥—Ä–æ—Ä–æ–≤');
+    (1,1,1,1,'Ë‚‡Ì ÒË‰ÓÓ‚');
 INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
-    (1,1,1,1,'–∏–≤–∞–Ω –∏–≤–∞–Ω–∏–≤–∏—á');
-=======
-(1,1,1,1,'ssss');
-INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
-    (1,1,1,1,'ssss');
-INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
-    (1,1,1,1,'ssss');
-INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
-    (1,1,1,1,'ssss');
-INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
-    (1,1,1,1,'ssss');
->>>>>>> origin/main
+    (1,1,1,1,'Ë‚‡Ì Ë‚‡ÌË‚Ë˜');
+
+
+
 
 
