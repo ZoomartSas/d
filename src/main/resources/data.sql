@@ -20,6 +20,7 @@ INSERT INTO faculry (name) VALUES ('математический');
 INSERT INTO faculry (name) VALUES ('биологический');
 
 INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
+<<<<<<< HEAD
 (1,1,1,1,'олег петрович');
 INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
     (1,1,1,1,'ольга евгеневна');
@@ -29,5 +30,16 @@ INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALU
     (1,1,1,1,'иван сидроров');
 INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
     (1,1,1,1,'иван иванивич');
+=======
+(1,1,1,1,'ssss');
+INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
+    (1,1,1,1,'ssss');
+INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
+    (1,1,1,1,'ssss');
+INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
+    (1,1,1,1,'ssss');
+INSERT INTO full_name (courses_id,faculry_id,gender_id,school_id,full_name) VALUES
+    (1,1,1,1,'ssss');
+>>>>>>> origin/main
 
 
