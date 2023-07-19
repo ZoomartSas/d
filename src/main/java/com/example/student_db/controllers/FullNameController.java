@@ -35,4 +35,9 @@ public class FullNameController {
 
         return fullNameService.findByName3(name);
     }
+
+    @GetMapping("/findByBirth")
+    public List<FullName> findByBirth(@RequestParam int BirthYear){
+        return fullNameService.findByBirth(BirthYear);
+    }
 }

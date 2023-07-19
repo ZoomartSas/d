@@ -27,4 +27,7 @@ public class FullName {
     School school;
     @ManyToOne
     Courses courses;
+
+    @ManyToOne
+    DataBof dataBof;
 }

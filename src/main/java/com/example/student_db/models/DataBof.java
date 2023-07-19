@@ -14,7 +14,7 @@ import java.time.LocalDate;
 @Setter
 @Getter
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Data_bof {
+public class DataBof {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long id;

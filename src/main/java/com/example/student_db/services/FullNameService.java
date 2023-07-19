@@ -11,4 +11,6 @@ public interface FullNameService {
    List <FullName> findByName2(String fullName);
 
    List <FullName> findByName3(String fullName);
+
+   List<FullName> findByBirth(int birthYear);
 }
